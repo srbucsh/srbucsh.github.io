@@ -1,88 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html prefix="" lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>
-      Playing With Data - 
-
-    </title>
-<link rel="stylesheet" href="../assets/css/bundle.css">
-<script src="../assets/js/bundle.js"></script>
+<meta name="viewport" content="width=device-width">
+<title>galleries | Playing With Data</title>
+<link href="../assets/css/all.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
+<link rel="canonical" href="https://srbucsh.github.io/galleries/">
+<!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]--><link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
+<style type="text/css">
+    #gallery_container {
+        position: relative;
+    }
+    .image-block {
+        position: absolute;
+    }
+</style>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 </head>
 <body>
-    <div id="layout">
-      <a href="#menu" id="menuLink" class="menu-link">
-    <span></span>
-</a>
+    <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+            styles, `#sidebar-checkbox` for behavior. -->
+    <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox"><!-- Toggleable sidebar --><div class="sidebar" id="sidebar">
+        <div class="sidebar-item">
+            <p>A reserved <a href="https://getnikola.com" target="_blank">Nikola</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a> for Jekyll,
+            ported to Nikola by <a href="https://twitter.com/ralsina" target="_blank">@ralsina</a>.</p>
+        </div>
+        
+    <nav id="menu" role="navigation" class="sidebar-nav"><a class="sidebar-nav-item" href="../archive.html">Archive</a>
+        <a class="sidebar-nav-item" href="../categories/">Tags</a>
+        <a class="sidebar-nav-item" href="../rss.xml">RSS feed</a>
+    
+    
+    </nav>
+</div>
 
-<div id="menu">
-    <div class="pure-menu">
-        <a class="pure-menu-heading" href="../">Playing With Data</a>
-
-        <ul class="pure-menu-list">
-<li class="pure-menu-item">
-              <a class="pure-menu-link" href="../archive.html">Archive</a>
-            </li>
-            <li class="pure-menu-item">
-              <a class="pure-menu-link" href="../categories/">Tags</a>
-            </li>
-            <li class="pure-menu-item">
-              <a class="pure-menu-link" href="../rss.xml">RSS feed</a>
-            </li>
-
-
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
           
-        </ul>
-</div>
-</div>
+    <h3 id="brand" class="masthead-title">
+      <a href="https://srbucsh.github.io/" title="Playing With Data" rel="home">Playing With Data</a>
+    </h3>
 
-      <div id="main">
+        </div>
+      </div>
+
+      <div class="container content" id="content">
+        
+    
+<nav class="breadcrumbs"><ul class="breadcrumb">
+<li>galleries</li>
+</ul></nav><h1>galleries</h1>
+
+<div id="gallery_container"></div>
 
         
-
-
-        <div class="yp-header-container">
-            <div class="yp-header" style="border-bottom: 1px solid #eee;">
-
-            <h1 class="yp-header__title">
-              
-
-            </h1>
-            <h2 class="yp-header__subtitle">
-              
-            </h2>
+        <footer id="footer"><p>Contents © 2019         <a href="mailto:steve.bucsh@gmail.com">Steven Bucsh</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         </p>
             
-          </div>
-        </div>
-
-        <div class="yp-content">
-          
-
-
-
-
-
-
-
-
-<article class="yp-gallery__body"><div class="yp-gallery__container">
-  </div>
-
-</article>
+        </footer>
 </div>
-
-
-          <div class="yp-footer">
-    Contents © 2019         <a href="mailto:steve.bucsh@gmail.com">Steven Bucsh</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
-    
-  </div>
-
-      </div>
     </div>
-
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
     
     
-  </body>
+    
+            <script src="../assets/js/all-nocdn.js"></script><!-- fancy dates --><script>
+    moment.locale("en");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script><!-- end fancy dates --><script src="../assets/js/justified-layout.min.js"></script><script src="../assets/js/gallery.min.js"></script><script>
+var jsonContent = [];
+var thumbnailSize = 180;
+renderGallery(jsonContent, thumbnailSize);
+window.addEventListener('resize', renderGallery);
+</script>
+</body>
 </html>
